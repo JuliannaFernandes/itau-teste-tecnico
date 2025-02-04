@@ -31,4 +31,7 @@ public class TransacaoService {
         listaTransacoes.add(dto);
     }
 
+    public void limparTransacoes() {
+        listaTransacoes.clear();
+    }
 }
