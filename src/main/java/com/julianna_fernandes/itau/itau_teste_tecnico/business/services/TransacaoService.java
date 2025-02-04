@@ -1,6 +1,7 @@
 package com.julianna_fernandes.itau.itau_teste_tecnico.business.services;
 
 import com.julianna_fernandes.itau.itau_teste_tecnico.controller.dtos.TransacaoRequestDTO;
+import com.julianna_fernandes.itau.itau_teste_tecnico.infrastructure.UnprocessableEntity;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
