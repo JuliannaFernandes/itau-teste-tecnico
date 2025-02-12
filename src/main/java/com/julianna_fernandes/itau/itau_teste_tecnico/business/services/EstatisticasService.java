@@ -17,7 +17,7 @@ public class EstatisticasService {
     public final TransacaoService transacaoService;
 
     public EstatisticasResponseDTO calcularEstatisticasTransacoes(Integer intervaloBusca) {
-        log.info("Inidada a busca de estatísticas de transações" + intervaloBusca);
+        log.info("Iniciada a busca de estatísticas de transações" + intervaloBusca);
 
         List<TransacaoRequestDTO> transacoes = transacaoService.buscarTransacoes(intervaloBusca);
 
